@@ -1,10 +1,4 @@
-// $(document).ready(function($) {
-//     var Body = $('body');
-//     Body.addClass('preloader-site');
-// });
-// $(window).load(function() {
-//     $('.preloader-wrapper').fadeOut();
-//     $('body').removeClass('preloader-site');
-// });
-
-      
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
